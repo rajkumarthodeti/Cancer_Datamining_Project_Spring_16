@@ -1,0 +1,23 @@
+Dataset Links:
+
+1.	https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wpbc.names
+2.	https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wpbc.data
+3.	http://www.tutorialspoint.com/data_mining/dm_cluster_analysis.htm
+
+
+Data Set Process Methods:
+Data pre-processing:Data pre-processing includes cleaning,  normalization,  transformation,  feature extraction and selection, etc. 
+The product of data pre-processing is the final training set.
+
+Why Data Pre processing 
+1)Real world data are generally
+        Incomplete: lacking attribute values, lacking certain attributes of interest, or containing only aggregate data
+        Noisy: containing errors or outliers
+        Inconsistent: containing discrepancies in codes or names
+2)Tasks in data pre processing
+        Data cleaning: fill in missing values, smooth noisy data, identify or remove outliers, and resolve inconsistencies.
+        Data integration: using multiple databases, data cubes, or files.
+        Data transformation: normalization and aggregation.
+        Data reduction: reducing the volume but producing the same or similar analytical results.
+        Data discretization: part of data reduction, replacing numerical attributes with nominal ones.
+Note : In our project we are using Data Reduction method for data cleaning 
