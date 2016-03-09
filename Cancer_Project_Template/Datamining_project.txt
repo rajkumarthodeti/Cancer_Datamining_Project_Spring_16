@@ -1,0 +1,111 @@
+CANCER IDENTIFICATION FROM DNA MICROARRAY GENE     
+EXPRESSION DATA AND ITS STATISTICAL ANALYSIS.
+
+OVERVIEW:
+Cancer is a major leading cause of death and responsible for around 13% of all deaths world-wide. 
+Cancer incidence rate is growing at an alarming rate in the world. Despite the fact that cancer is
+preventable and curable in early stages, the vast majority of patients are diagnosed with cancer very late.
+Therefore, it is of paramount importance to prevent and detect cancer early. Microarray basedgene expression 
+profiling has been emerged as an efficient technique for cancer classification, as well as for diagnosis, prognosis, 
+and treatment purposes. In recent years, DNA microarray technique has gained more attraction in both scientific and 
+in industrial fields.  It showed great importance in determining the informative genesthat can cause the cancer. 
+Studing cancer microarray gene expression data is a challenging task becausemicroarray is high dimensional-low sample 
+dataset with a lot of noisy or irrelevant genes and missing data.
+
+In this project, we conduct a comprehensive study that focuses on exploring the main objectives and approaches
+that have been applied using cancer microarray gene expression profile.
+
+Conventional Method of Diagnosis: Conventional methods of detecting and diagnosing cancer rely solely on skilled 
+physicians, with the help of medical imaging, to detect certain symptoms that usually appear in the late stages of cancer.
+
+Drawback:
+i)	Delay in diagnosing cancer leads to spreads it to other parts of the body, can have a huge effect on survival.
+ii)	Once a cancer has spread, it is often harder to treat successfully and chances of surviving are much lower.
+
+Proposed Method:Microarray based gene expression profiling method has become an important and promising approach that
+can be used for cancer classification. The objective of our project is two-fold. First of all we want to select the
+most informative genes which are crucial for cancer classification. For this we need to apply data dimensionality 
+reduction technique for removing the irrelevant genes. We want to develop an efficient gene selection technique with
+higher accuracy and also which takes minimum computational time. Then these informative genes need to undergo suitable 
+clustering techniques. If we can find the tendency of cluster formation then we can predict that there is a chance of 
+cancerous growth and hence early detection of cancer will be possible and proper treatment can be done. 
+The most important objectives of microarray dataset are to classify unknown tissue samples according to their 
+expression profiles. Microarray data suffers from the curse of dimensionality, the small number of samples, and 
+the level of irrelevant and noise genes. These make the classification task of a test sample a very challenging problem. 
+As a consequence, it is important to eliminate those irrelevant genes and identify the informative genes that are why a 
+feature selection problem is crucial in gene expression data analysis. Therefore, the first step in processing the 
+expression data is to identify a small subset of genes that are primarily responsible for the cancer. It is required to 
+use a gene selection process as a mandatory step before we start any cancer classification approach on a microarray 
+dataset. Thus, we can conclude that the main objectives of many studies using DNA microarrays can be classified into 
+three major groups: Gene finding, Class discovery, and Class prediction. 
+
+Advantages of Proposed Method: 
+i)	We can diagnosis cancer in early stages.
+ii)	Helps in giving effective chemotherapy treatment
+
+DATA:
+We are taking dataset from following website.
+https://www.arabidopsis.org/portals/expression/microarray/microarrayDatasetsV2.jsp
+
+
+
+           Operating System		: Windows
+           Technology			: Java and J2EE
+           Web Technologies		: Html, JavaScript, CSS
+           IDE				: My Eclipse
+           Web Server			: Tomcat
+           Database			: My SQL
+           Java Version		        : J2SDK1.5             
+
+RESEARCH QUESTIONS:
+We are trying to find out better techniques with higher accuracy for gene selection gives fast and better results for 
+cancer diagnosis.
+
+MODELS AND ANALYSIS:
+We are planning to apply different algorithms such as Decision Tree algorithm, Bayes algorithm.
+
+PROJECT MANAGEMENT:		           
+Team Members	              Roles and Skills	                           Contributions
+Srinivas Maganti	      Coding  and Data Analysis	                   Html and Clustering of data
+Rajkumar Thodeti	      Coding  and Data Analysis	                   Java script and classification of data
+Sreevenu Mudigondla	      Coding, Data filtering and preprocessing     CSS and SQL
+
+
+DELIVERABLES AND CHECKPOINTS:
+Checkpoint date	Expected Deliverable	Responsible team member(s)	Checkpoint results
+			
+			
+			
+			
+
+References:
+Centers for Disease Control and Prevention. Frequently Asked Questions about Colorectal Cancer. 2012.
+http://www.cdc.gov/cancer/colorectal/basic_info/faq.htm 
+
+Gorodkin, Jan. “Comparing two K-category assignments by a K-category correlation coe?cient.”
+Computational Biology and Chemistry vol. 28, no. 5-6, pp. 367-374. 2004.
+ 
+Iacopetta, Barry. “TP53 Mutation in Colorectal Cancer”. Human Mutation vol. 21, no. 3, pp. 271-276. 2003. 
+
+Susan G. Komen for the Cure. Molecular Subtypes of Breast Cancer. 2011.
+http://ww5.komen. org/BreastCancer/SubtypesofBreastCancer.html
+ 
+Wikipedia. Cancer. http://en.wikipedia.org/wiki/Cance. 
+
+http://en.wikipedia.org/wiki/Matthews_correlation_coefficient 
+Witten, Ian H. and Frank, Eibe. Data Mining: Practical Machine Learning Tools and Techniques, 2nd edition. 
+Morgan Kaufman, San Francisco. 2005.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
