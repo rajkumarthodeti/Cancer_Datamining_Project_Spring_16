@@ -8,8 +8,8 @@ preventable and curable in early stages, the vast majority of patients are diagn
 Therefore, it is of paramount importance to prevent and detect cancer early. Microarray basedgene expression 
 profiling has been emerged as an efficient technique for cancer classification, as well as for diagnosis, prognosis, 
 and treatment purposes. In recent years, DNA microarray technique has gained more attraction in both scientific and 
-in industrial fields.  It showed great importance in determining the informative genesthat can cause the cancer. 
-Studing cancer microarray gene expression data is a challenging task becausemicroarray is high dimensional-low sample 
+in industrial fields.  It showed great importance in determining the informative genes that can cause the cancer. 
+Studing cancer microarray gene expression data is a challenging task because microarray is high dimensional-low sample 
 dataset with a lot of noisy or irrelevant genes and missing data.
 
 In this project, we conduct a comprehensive study that focuses on exploring the main objectives and approaches
@@ -45,7 +45,8 @@ ii)	Helps in giving effective chemotherapy treatment
 
 DATA:
 We are taking dataset from following website.
-https://www.arabidopsis.org/portals/expression/microarray/microarrayDatasetsV2.jsp
+https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wpbc.names
+https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wpbc.data
 
 
 
@@ -62,13 +63,16 @@ We are trying to find out better techniques with higher accuracy for gene select
 cancer diagnosis.
 
 MODELS AND ANALYSIS:
-We are planning to apply different algorithms such as Decision Tree algorithm, Bayes algorithm.
+First we take cleaned dataset and then we remove some of unneccessary attributes from it using Data-Reduction technique.
+Later we cluster the data using k-means method. We cluster data into two clusters one is Recurrent cluster and other is 
+Non-recurrent clusters. Attribute  R = recurrent represents patient has cancer and attribute N = nonrecurrent represents patient doesnot 
+has cancer. After this gene method is applied to predict different stages of cancer.
 
 PROJECT MANAGEMENT:		           
 Team Members	              Roles and Skills	                           Contributions
 Srinivas Maganti	      Coding  and Data Analysis	                   Html and Clustering of data
 Rajkumar Thodeti	      Coding  and Data Analysis	                   Java script and classification of data
-Sreevenu Mudigondla	      Coding, Data filtering and preprocessing     CSS and SQL
+Sreevenu Mudigondla	      Coding, Data preprocessing                   CSS and SQL
 
 
 DELIVERABLES AND CHECKPOINTS:
